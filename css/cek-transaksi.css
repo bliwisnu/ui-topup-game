@@ -1,0 +1,472 @@
+:root {
+    --pr-color: #E54649;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background: linear-gradient(132deg, #272727 0%, #1A1A1A 100%);
+}
+
+/* Navbar */
+.navbar .navbar-nav a:hover {
+    color: var(--pr-color);
+}
+
+.nav-link {
+    font-size: 13px;
+}
+
+.nav-link.active,
+.nav-link.topup {
+    font-weight: 700;
+}
+
+.btn-search :placeholder-shown {
+    font-size: 13px;
+}
+
+.btn-search {
+    position: relative;
+}
+
+.icon-search {
+    color: #B1B8C1;
+    position: absolute;
+    top: calc(50%);
+    left: 1.15rem;
+}
+
+.btn-search label, .form-control-search {
+    left: .5rem;
+    padding-left: 2.7rem;
+}
+
+.button-regis,
+.button-login {
+    font-weight: 600;
+    font-size: 13px;
+    width: 150px;
+}
+
+/* Background kotak Section */
+.kotak-merah-kecil {
+    z-index: -1;
+    position: absolute;
+    top: 143px;
+    left: 230px;
+}
+
+.container {
+    z-index: 99;
+}
+
+.persegi-panjang {
+    z-index: -5;
+    position: absolute;
+    top: 400px;
+    right: 1px;
+}
+
+.persegi-panjang2 {
+    z-index: -6;
+    position: absolute;
+    top: 450px;
+    right: 80px;
+}
+
+.persegi-1 {
+    z-index: -6;
+    position: absolute;
+    top: 790px;
+    right: 1px;
+}
+
+.persegi-2 {
+    z-index: -7;
+    position: absolute;
+    top: 930px;
+    right: 1px;
+}
+
+.kotak-bg {
+    z-index: -1;
+    position: absolute;
+    top: 158px;
+}
+
+.kotak-2 {
+    z-index: -2;
+    position: absolute;
+    top: 110px;
+    left: 225px;
+}
+
+.kotak-3 {
+    z-index: -3;
+    position: absolute;
+    bottom: -300px;
+}
+
+.kotak-4 {
+    z-index: -4;
+    position: absolute;
+    bottom: -180px;
+    left: 10px;
+}
+
+.kotak-5 {
+    z-index: -4;
+    position: absolute;
+    bottom: -90px;
+    right: 400px;
+}
+
+.persegi {
+    z-index: -4;
+    position: absolute;
+    top: 2000px;
+    right: 5px;
+}
+
+.persegi2 {
+    z-index: -4;
+    position: absolute;
+    top: 1900px;
+    right: 200px;
+}
+
+.persegi3 {
+    z-index: -5;
+    position: absolute;
+    top: 1830px;
+    right: 320px;
+}
+
+.kotak-6 {
+    z-index: -5;
+    position: absolute;
+    top: 1700px;
+    right: 150px;
+}
+
+.kotak-7 {
+    z-index: -5;
+    position: absolute;
+    top: 1500px;
+    right: 0px;
+}
+
+.kotak-kiri1 {
+    z-index: -5;
+    position: absolute;
+    top: 1530px;
+    left: 0px;
+}
+
+.kotak-kiri2 {
+    z-index: -5;
+    position: absolute;
+    top: 1430px;
+    left: 0px;
+}
+
+.kotak-kiri3 {
+    z-index: -5;
+    position: absolute;
+    top: 1630px;
+    left: 0px;
+}
+
+/* Konten Section */
+.card-title {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.card-subtitle {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.card-transaksi {
+    border-radius: 10px;
+    background: #444343;
+    border: #696969;
+}
+
+.transaksi-title {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.input-transaksi input {
+    height: 45px;
+    flex-shrink: 0;
+}
+
+.input-transaksi :placeholder-shown {
+    color: #B1B8C1;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.btn-search label, .form-control {
+    left: .5rem;
+    padding-left: 2.7rem;
+}
+
+.icon-search2 {
+    color: #B1B8C1;
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    font-size: 28px;
+}
+
+.btn-transaksi {
+    border-radius: 8px;
+    background: var(--pr-color);
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    width: 150px;
+    height: 45px;
+}
+
+.status-transaksi {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.proses-transaksi {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.card-info {
+    border: 2px solid #696969;
+}
+
+.title-card {
+    background-color: #818181;
+}
+
+.card {
+    border-radius: 10px !important;
+}
+
+.title-card th {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.body-card {
+    background-color: #444343;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.body-card th {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.proses {
+    font-weight: 700 !important;
+}
+
+.note {
+    margin-top: 20px;
+    color: #F1C94C;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.history-transaksi h3 {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.history-transaksi p {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* Footer Section */
+svg {
+    z-index: -1;
+    position: absolute;
+    margin-top: 300px;
+}
+
+#footer {
+    z-index: 999;
+    margin-top: 400px;
+    background-color: #272727;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 50px;
+}
+
+.wrapper-icon {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px !important;
+}
+
+.footer-icon,
+.footer-icon2,
+.footer-icon3,
+.footer-icon4 {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-icon {
+    top: 180px;
+    right: 1px;
+    width: 130px;
+}
+
+.footer-icon2 {
+    top: 80px;
+    width: 60px;
+    height: 150px;
+}
+
+.footer-icon3 {
+    top: 170px;
+    width: 265px;
+    height: 160px;
+}
+
+.footer-icon4 {
+    top: 280px;
+    width: 120px;
+    height: 50px;
+}
+
+.wrapper-col-1 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.wrapper-col-1 img {
+    position: relative;
+    left: 43%;
+}
+
+.wrapper-icon a {
+    position: relative;
+    left: 27%;
+    height: 2rem;
+    font-size: 2rem;
+}
+
+.wrapper-icon, .facebook {
+    color: blue;
+    z-index: 100;
+}
+
+.wrapper-icon, .instagram {
+    color: rgb(242, 41, 41);
+    z-index: 100;
+}
+
+.wrapper-icon, .line {
+    color: rgb(36, 206, 36);
+    z-index: 100;
+}
+
+.wrapper-col-2 h4 {
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.wrapper-col-2 a {
+    text-decoration: none;
+    color: var(--pr-color);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+}
+
+/* Responsive untuk Laptop */
+@media (max-width: 992px) {
+
+    .title-card,
+    .body-card {
+        font-size: 10px;
+    }
+}
+
+/* Responsive untuk tablet */
+@media (max-width: 768px) {
+
+    .title-card th,
+    .body-card th {
+        font-size: 9px;
+    }
+}
+
+
+/* Responsive untuk ponsel */
+@media (max-width: 576px) {
+
+    .title-card th,
+    .body-card th {
+        font-size: 8px;
+    }
+
+    .kotak-merah-kecil {
+        z-index: -1;
+        position: absolute;
+        top: 143px;
+        left: 150px;
+    }
+}

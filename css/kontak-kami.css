@@ -1,0 +1,425 @@
+:root {
+    --pr-color: #E54649;
+}
+
+/* Body */
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background: linear-gradient(132deg, #272727 0%, #1A1A1A 100%);
+}
+
+/* Navbar */
+.navbar .navbar-nav a:hover {
+    color: var(--pr-color);
+}
+
+.nav-link {
+    font-size: 13px;
+}
+
+.nav-link.active,
+.nav-link.topup {
+    font-weight: 700;
+}
+
+.btn-search {
+    position: relative;
+}
+
+.icon-search {
+    color: #B1B8C1;
+    position: absolute;
+    top: calc(50%);
+    left: 1.15rem;
+}
+
+.btn-search input, .form-control-search {
+    left: .5rem;
+    padding-left: 3.0rem;
+}
+
+.btn-search :placeholder-shown {
+    font-size: 13px;
+}
+
+.button-regis,
+.button-login {
+    font-size: 13px;
+    width: 150px;
+}
+
+/* Kotak Background */
+.container {
+    z-index: 99;
+}
+
+.persegi-panjang {
+    z-index: -5;
+    position: absolute;
+    top: 400px;
+    right: 1px;
+}
+
+.persegi-panjang2 {
+    z-index: -6;
+    position: absolute;
+    top: 450px;
+    right: 80px;
+}
+
+.kotak-panjang {
+    z-index: -1;
+    position: absolute;
+    top: 290px;
+    left: 120px;
+}
+
+.persegi-1 {
+    z-index: -6;
+    position: absolute;
+    top: 790px;
+    right: 1px;
+}
+
+.persegi-2 {
+    z-index: -7;
+    position: absolute;
+    top: 930px;
+    right: 1px;
+}
+
+.kotak-bg {
+    z-index: -1;
+    position: absolute;
+    top: 158px;
+}
+
+.kotak-2 {
+    z-index: -2;
+    position: absolute;
+    top: 110px;
+    left: 225px;
+}
+
+.kotak-3 {
+    z-index: -3;
+    position: absolute;
+    bottom: -300px;
+}
+
+.kotak-4 {
+    z-index: -4;
+    position: absolute;
+    bottom: -180px;
+    left: 10px;
+}
+
+.kotak-5 {
+    z-index: -4;
+    position: absolute;
+    bottom: -90px;
+    right: 400px;
+}
+
+.persegi {
+    z-index: -4;
+    position: absolute;
+    top: 2000px;
+    right: 5px;
+}
+
+.persegi2 {
+    z-index: -4;
+    position: absolute;
+    top: 1900px;
+    right: 200px;
+}
+
+.persegi3 {
+    z-index: -5;
+    position: absolute;
+    top: 1830px;
+    right: 320px;
+}
+
+.kotak-6 {
+    z-index: -5;
+    position: absolute;
+    top: 1700px;
+    right: 150px;
+}
+
+.kotak-7 {
+    z-index: -5;
+    position: absolute;
+    top: 1500px;
+    right: 0px;
+}
+
+.kotak-kiri1 {
+    z-index: -5;
+    position: absolute;
+    top: 1530px;
+    left: 0px;
+}
+
+.kotak-kiri2 {
+    z-index: -5;
+    position: absolute;
+    top: 1430px;
+    left: 0px;
+}
+
+.kotak-kiri3 {
+    z-index: -5;
+    position: absolute;
+    top: 1630px;
+    left: 0px;
+}
+
+/* Kontak Kami */
+.header-kontak h1 {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.header-kontak h3 {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.header-kontak p {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.lokasi {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.col-text {
+    margin-left: -20px;
+}
+
+.btn-email {
+    color: var(--pr-color);
+    border: none;
+    width: 180px;
+    height: 120px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.btn-wa {
+    color: var(--pr-color);
+    border: none;
+    width: 180px;
+    height: 120px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.btn-email:hover,
+.btn-wa:hover {
+    color: #FFF;
+    background-color: var(--pr-color);
+}
+
+.card-form {
+    border: none;
+    background-color: #444343;
+}
+
+.title-form {
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.col-input {
+    margin-left: 15px;
+}
+
+.col-textArea {
+    margin-right: 15px;
+}
+
+.form-card label {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.form-card input {
+    height: 45px;
+}
+
+.form-card :placeholder-shown {
+    font-size: 13px;
+}
+
+.col-input input, .form-control {
+    left: .5rem;
+    padding-left: 1rem;
+}
+
+.card-masalah {
+    border-radius: 10px !important;
+    background-color: #818181;
+}
+
+.head-masalah {
+    border-radius: 10px !important;
+    background: #818181;
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.body-masalah {
+    display: none;
+}
+
+.btn-kirimPesan {
+    height: 40px;
+    width: 40%;
+    background-color: var(--pr-color);
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* Footer */
+svg {
+    z-index: -1;
+    position: absolute;
+    margin-top: 200px;
+}
+
+#footer {
+    margin-top: 300px;
+    background-color: #272727;
+}
+
+.wrapper-icon {
+    margin-bottom: 100px !important;
+}
+
+.wrapper-col-1 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+
+.wrapper-col-1 img {
+    position: relative;
+    left: 43%;
+}
+
+.wrapper-icon a {
+    position: relative;
+    left: 27%;
+    height: 2rem;
+    font-size: 2rem;
+}
+
+.wrapper-icon, .facebook {
+    color: blue;
+}
+
+.wrapper-icon, .instagram {
+    color: rgb(242, 41, 41);
+}
+
+.wrapper-icon, .line {
+    color: rgb(36, 206, 36);
+}
+
+.wrapper-col-2 h4 {
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.wrapper-col-2 a {
+    text-decoration: none;
+    color: var(--pr-color);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+}
+
+.footer-icon {
+    z-index: 100;
+    position: absolute;
+    top: 1280px;
+    right: 1px;
+}
+
+.footer-icon2 {
+    z-index: 100;
+    position: absolute;
+    top: 1200px;
+    left: 0px;
+}
+
+.footer-icon3 {
+    width: 20%;
+    z-index: 100;
+    position: absolute;
+    top: 1275px;
+    left: 1px;
+}
+
+.footer-icon4 {
+    width: 10%;
+    z-index: 100;
+    position: absolute;
+    top: 1386px;
+    left: 0px;
+}
+
+@media (max-width:992px) {
+
+    .facebook,
+    .instagram,
+    .line {
+        margin-left: 30px !important;
+    }
+}

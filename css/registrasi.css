@@ -1,0 +1,184 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header {
+    color: #fff;
+}
+
+.btn-back {
+    position: relative;
+    right: 80px;
+    top: 40px;
+    width: 40px;
+}
+
+.title-regis {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.header p {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.isi-form label {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.head-form, .col-nama label {
+    margin-bottom: 8px;
+}
+
+.head-form, .col-nama input {
+    width: 180px !important;
+    height: 40px !important;
+}
+
+.isi-form input {
+    width: 411px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.isi-form :placeholder-shown {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.email-form {
+    position: relative;
+}
+
+.icon-eye1, .icon-eye2 {
+    color: #B1B8C1;
+    position: absolute;
+    top: calc(60%);
+    left: 23rem;
+}
+
+.isi-form {
+    color: #fff;
+}
+
+.form-check {
+    margin-bottom: 15px;
+}
+
+.form-check input {
+    width: 17px;
+    height: 17px;
+}
+
+.form-check-input:checked {
+    background-color: #E54649;
+    border-color: #E54649;
+}
+
+.form-check a {
+    text-decoration: none;
+    color: #E54649;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.register {
+    min-height: 100vh;
+}
+
+.bg-image {
+    background-image: url(../img/register-img/bg-register.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.btn-daftar {
+    color: #fff;
+    font-size: 13px;
+    width: 411px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E54649;
+}
+
+.link-login {
+    font-size: 13px;
+}
+
+.link-login a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #E54649;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+/* ... kode CSS sebelumnya ... */
+.register {
+    z-index: 1;
+    position: relative;
+}
+
+.persegi-panjang,
+.persegi-panjang1,
+.persegi-panjang2,
+.persegi-1,
+.persegi-2,
+.kotak-kecil {
+    position: absolute;
+}
+
+.persegi-panjang {
+    z-index: 0;
+    top: 290px;
+    right: 180px;
+    width: 280px;
+}
+
+.persegi-panjang1 {
+    z-index: 0;
+    top: 440px;
+    right: 1px;
+    width: 300px;
+}
+
+.persegi-panjang2 {
+    z-index: 0;
+    top: 570px;
+    right: 110px;
+    width: 300px;
+    height: 190px;
+}
+
+.kotak-kecil {
+    z-index: 0;
+    top: 540px;
+    right: 460px;
+    width: 180px;
+}
+
+/* ... kode CSS setelahnya ... */
+
+
+@media (max-width: 675px) {
+    .btn-back {
+        left: -5px;
+        top: -10px;
+    }
+}

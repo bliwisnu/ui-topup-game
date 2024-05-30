@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/e15394ba04.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Fonts Google -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600;6..12,700&family=Poppins:wght@300;400;700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./css/membership-dashboard.css">
+
+    <!-- Logo Title -->
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="" width="40px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
+                    <li class="nav-item">
+                        <a class="nav-link active mx-2" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Cek Tranksaksi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Kalkulator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Artikel</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex btn-search" role="search">
+                    <i class="icon-search fa-solid fa-magnifying-glass fa-lg"></i>
+                    <input class="form-control form-control-search me-2" type="search"
+                        placeholder="Cari kebutuhan anda..." aria-label="Search">
+                    <a class="navbar-brand mx-2 me-3" href="#"><img src="./img/garis.png" alt="logo" width="1"
+                            height="30"></a>
+                    <button type="button" class="btn btn-danger btn-profile-nav me-2">GF</button>
+                    <div class="dropdown">
+                        <a class="btn btn-user dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Gilang Fathoni
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Navabr End -->
+
+    <!-- Membership -->
+    <section class="membership">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body text-start">
+                            <button type="button" class="btn btn-outline-danger btn-list mt-3 text-start"><img
+                                    src="./img/membership-img/dashbord.png" alt="" width="25px" class="me-2">Dashboard
+                                Akun</button>
+                            <button type="button" class="btn btn-outline-danger btn-list mt-3 text-start"><img
+                                    src="./img/membership-img/kartu.png" alt="" width="25px"
+                                    class="me-2">Membership</button>
+                            <button type="button" class="btn btn-outline-danger btn-list mt-3 text-start"><img
+                                    src="./img/membership-img/uang.png" alt="" width="25px" class="me-2">Top Up
+                                Saldo</button>
+                            <button type="button" class="btn btn-outline-danger btn-list mt-3 text-start"><img
+                                    src="./img/membership-img/jam.png" alt="" width="25px" class="me-2">Riwayat
+                                Transaksi</button>
+                            <button type="button" class="btn btn-outline-danger btn-exit mt-3 text-start"><img
+                                    src="./img/membership-img/exit.png" alt="" width="25px" class="me-2">Keluar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="card">
+                        <div class="container">
+                            <div class="header d-inline d-flex justify-content-between">
+                                <div class="card mb-3 border-0">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <button type="button" class="btn btn-danger btn-profile">GF</button>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body body-card">
+                                                <h5 class="card-title">Gilang Fathoni</h5>
+                                                <p class="card-text membership-info">
+                                                    <img src="./img/membership-img/kartu.png" alt="" width="20px">
+                                                    <span class="membership-text">Reguler Membership</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-edit">Edit Profil</button>
+                            </div>
+                            <hr class="garis">
+                            <div class="phone d-inline d-flex">
+                                <img src="./img/membership-img/save.png" alt="" class="img-save me-2" width="20px"
+                                    height="20px">
+                                <p>081392413876</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <div class="saldo d-inline d-flex justify-content-between">
+                                <p>Total Saldo</p>
+                                <button type="button" class="btn btn btn-warning btn-topup">Top Up</button>
+                            </div>
+                            <p class="total-saldo">RP 0,-</p>
+                        </div>
+                    </div>
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <div class="saldo d-inline d-flex justify-content-between">
+                                <p>Total Pembelian</p>
+                                <button type="button" class="btn btn btn-warning btn-topup">Beli Sekarang</button>
+                            </div>
+                            <p class="total-saldo">RP 150.00,-</p>
+                        </div>
+                    </div>
+                    <div class="card mt-4">
+                        <div class="card-body pesanan">
+                            <span>Pesanan Saya</span>
+                            <div class="container">
+                                <div class="row text-center">
+                                    <div class="col-sm-3">
+                                        <h2>0</h2>
+                                        <p>Belum bayar</p>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <h2>0</h2>
+                                        <p>Tertunda</p>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <h2>2</h2>
+                                        <p>Sukses</p>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <h2>0</h2>
+                                        <p>Kadaluarsa</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img class="persegi-panjang" src="./img/persegi-panjang.png" alt="" width="250">
+        <img class="persegi-panjang2" src="./img/persegi-panjang.png" alt="" width="250">
+        <img class="persegi-1" src="./img/persegi.png" alt="" width="160px">
+        <img class="persegi-2" src="./img/persegi.png" alt="" width="260px" height="200px">
+        <img class="kotak-bg" src="./img/kotak-bg.png" alt="" width="180px">
+        <img class="kotak-2" src="./img/kotak-2.png" alt="" width="160px">
+        <img class="kotak-3" src="./img/kotak-3.svg" alt="" width="130px">
+        <img class="kotak-4" src="./img/Group 29.png" alt="" width="130px">
+        <img class="kotak-5" src="./img/kotak-3.svg" alt="" width="130px">
+    </section>
+
+    <!-- SVG Footer Section -->
+    <div class="footer-bg ">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#272727" fill-opacity="1"
+                d="M0,192L0,160L57.6,160L57.6,256L115.2,256L115.2,96L172.8,96L172.8,192L230.4,192L230.4,256L288,256L288,192L345.6,192L345.6,192L403.2,192L403.2,160L460.8,160L460.8,256L518.4,256L518.4,96L576,96L576,128L633.6,128L633.6,96L691.2,96L691.2,192L748.8,192L748.8,160L806.4,160L806.4,160L864,160L864,160L921.6,160L921.6,128L979.2,128L979.2,256L1036.8,256L1036.8,96L1094.4,96L1094.4,224L1152,224L1152,192L1209.6,192L1209.6,288L1267.2,288L1267.2,192L1324.8,192L1324.8,128L1382.4,128L1382.4,288L1440,288L1440,320L1382.4,320L1382.4,320L1324.8,320L1324.8,320L1267.2,320L1267.2,320L1209.6,320L1209.6,320L1152,320L1152,320L1094.4,320L1094.4,320L1036.8,320L1036.8,320L979.2,320L979.2,320L921.6,320L921.6,320L864,320L864,320L806.4,320L806.4,320L748.8,320L748.8,320L691.2,320L691.2,320L633.6,320L633.6,320L576,320L576,320L518.4,320L518.4,320L460.8,320L460.8,320L403.2,320L403.2,320L345.6,320L345.6,320L288,320L288,320L230.4,320L230.4,320L172.8,320L172.8,320L115.2,320L115.2,320L57.6,320L57.6,320L0,320L0,320Z">
+            </path>
+        </svg>
+    </div>
+    <!-- SVG Footer Background -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#272727" fill-opacity="1"
+            d="M0,256L0,32L36.9,32L36.9,32L73.8,32L73.8,320L110.8,320L110.8,224L147.7,224L147.7,96L184.6,96L184.6,288L221.5,288L221.5,32L258.5,32L258.5,128L295.4,128L295.4,320L332.3,320L332.3,288L369.2,288L369.2,192L406.2,192L406.2,96L443.1,96L443.1,32L480,32L480,320L516.9,320L516.9,128L553.8,128L553.8,320L590.8,320L590.8,128L627.7,128L627.7,256L664.6,256L664.6,160L701.5,160L701.5,160L738.5,160L738.5,32L775.4,32L775.4,64L812.3,64L812.3,256L849.2,256L849.2,288L886.2,288L886.2,256L923.1,256L923.1,32L960,32L960,256L996.9,256L996.9,192L1033.8,192L1033.8,160L1070.8,160L1070.8,32L1107.7,32L1107.7,224L1144.6,224L1144.6,320L1181.5,320L1181.5,224L1218.5,224L1218.5,320L1255.4,320L1255.4,288L1292.3,288L1292.3,32L1329.2,32L1329.2,64L1366.2,64L1366.2,160L1403.1,160L1403.1,64L1440,64L1440,320L1403.1,320L1403.1,320L1366.2,320L1366.2,320L1329.2,320L1329.2,320L1292.3,320L1292.3,320L1255.4,320L1255.4,320L1218.5,320L1218.5,320L1181.5,320L1181.5,320L1144.6,320L1144.6,320L1107.7,320L1107.7,320L1070.8,320L1070.8,320L1033.8,320L1033.8,320L996.9,320L996.9,320L960,320L960,320L923.1,320L923.1,320L886.2,320L886.2,320L849.2,320L849.2,320L812.3,320L812.3,320L775.4,320L775.4,320L738.5,320L738.5,320L701.5,320L701.5,320L664.6,320L664.6,320L627.7,320L627.7,320L590.8,320L590.8,320L553.8,320L553.8,320L516.9,320L516.9,320L480,320L480,320L443.1,320L443.1,320L406.2,320L406.2,320L369.2,320L369.2,320L332.3,320L332.3,320L295.4,320L295.4,320L258.5,320L258.5,320L221.5,320L221.5,320L184.6,320L184.6,320L147.7,320L147.7,320L110.8,320L110.8,320L73.8,320L73.8,320L36.9,320L36.9,320L0,320L0,320Z">
+        </path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#272727" fill-opacity="1"
+            d="M0,320L0,288L36.9,288L36.9,160L73.8,160L73.8,192L110.8,192L110.8,192L147.7,192L147.7,0L184.6,0L184.6,256L221.5,256L221.5,320L258.5,320L258.5,160L295.4,160L295.4,256L332.3,256L332.3,256L369.2,256L369.2,224L406.2,224L406.2,96L443.1,96L443.1,128L480,128L480,128L516.9,128L516.9,96L553.8,96L553.8,192L590.8,192L590.8,96L627.7,96L627.7,32L664.6,32L664.6,96L701.5,96L701.5,32L738.5,32L738.5,128L775.4,128L775.4,96L812.3,96L812.3,64L849.2,64L849.2,32L886.2,32L886.2,96L923.1,96L923.1,256L960,256L960,192L996.9,192L996.9,320L1033.8,320L1033.8,192L1070.8,192L1070.8,320L1107.7,320L1107.7,288L1144.6,288L1144.6,128L1181.5,128L1181.5,160L1218.5,160L1218.5,256L1255.4,256L1255.4,256L1292.3,256L1292.3,256L1329.2,256L1329.2,288L1366.2,288L1366.2,128L1403.1,128L1403.1,160L1440,160L1440,320L1403.1,320L1403.1,320L1366.2,320L1366.2,320L1329.2,320L1329.2,320L1292.3,320L1292.3,320L1255.4,320L1255.4,320L1218.5,320L1218.5,320L1181.5,320L1181.5,320L1144.6,320L1144.6,320L1107.7,320L1107.7,320L1070.8,320L1070.8,320L1033.8,320L1033.8,320L996.9,320L996.9,320L960,320L960,320L923.1,320L923.1,320L886.2,320L886.2,320L849.2,320L849.2,320L812.3,320L812.3,320L775.4,320L775.4,320L738.5,320L738.5,320L701.5,320L701.5,320L664.6,320L664.6,320L627.7,320L627.7,320L590.8,320L590.8,320L553.8,320L553.8,320L516.9,320L516.9,320L480,320L480,320L443.1,320L443.1,320L406.2,320L406.2,320L369.2,320L369.2,320L332.3,320L332.3,320L295.4,320L295.4,320L258.5,320L258.5,320L221.5,320L221.5,320L184.6,320L184.6,320L147.7,320L147.7,320L110.8,320L110.8,320L73.8,320L73.8,320L36.9,320L36.9,320L0,320L0,320Z">
+        </path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#272727" fill-opacity="1"
+            d="M0,160L0,128L36.9,128L36.9,128L73.8,128L73.8,192L110.8,192L110.8,288L147.7,288L147.7,32L184.6,32L184.6,288L221.5,288L221.5,224L258.5,224L258.5,64L295.4,64L295.4,288L332.3,288L332.3,192L369.2,192L369.2,32L406.2,32L406.2,224L443.1,224L443.1,224L480,224L480,64L516.9,64L516.9,192L553.8,192L553.8,0L590.8,0L590.8,32L627.7,32L627.7,320L664.6,320L664.6,224L701.5,224L701.5,224L738.5,224L738.5,96L775.4,96L775.4,96L812.3,96L812.3,224L849.2,224L849.2,64L886.2,64L886.2,32L923.1,32L923.1,32L960,32L960,0L996.9,0L996.9,160L1033.8,160L1033.8,160L1070.8,160L1070.8,160L1107.7,160L1107.7,96L1144.6,96L1144.6,256L1181.5,256L1181.5,128L1218.5,128L1218.5,224L1255.4,224L1255.4,96L1292.3,96L1292.3,64L1329.2,64L1329.2,128L1366.2,128L1366.2,160L1403.1,160L1403.1,0L1440,0L1440,320L1403.1,320L1403.1,320L1366.2,320L1366.2,320L1329.2,320L1329.2,320L1292.3,320L1292.3,320L1255.4,320L1255.4,320L1218.5,320L1218.5,320L1181.5,320L1181.5,320L1144.6,320L1144.6,320L1107.7,320L1107.7,320L1070.8,320L1070.8,320L1033.8,320L1033.8,320L996.9,320L996.9,320L960,320L960,320L923.1,320L923.1,320L886.2,320L886.2,320L849.2,320L849.2,320L812.3,320L812.3,320L775.4,320L775.4,320L738.5,320L738.5,320L701.5,320L701.5,320L664.6,320L664.6,320L627.7,320L627.7,320L590.8,320L590.8,320L553.8,320L553.8,320L516.9,320L516.9,320L480,320L480,320L443.1,320L443.1,320L406.2,320L406.2,320L369.2,320L369.2,320L332.3,320L332.3,320L295.4,320L295.4,320L258.5,320L258.5,320L221.5,320L221.5,320L184.6,320L184.6,320L147.7,320L147.7,320L110.8,320L110.8,320L73.8,320L73.8,320L36.9,320L36.9,320L0,320L0,320Z">
+        </path>
+    </svg>
+
+    <!-- Footer -->
+    <section id="footer">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="wrapper-col-1">
+                            <img src="./img/logo.png" alt="">
+                            <p>Supplier top up game & voucher terlaris, murah,<br> aman legal 100% buka 24 Jam dengan
+                                payment <br>
+                                terlengkap Indonesia</p>
+                            <div class="wrapper-icon d-flex m-3">
+                                <a href="#"><i class="bi bi-facebook mx-2 facebok"></i></a>
+                                <a href="#"><i class="bi bi-instagram mx-2 instagram"></i></a>
+                                <a href="#"><i class="bi bi-line mx-2 line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="wrapper-col-2">
+                            <h4>Partnership</h4>
+                            <a href="#">Join reseller</a>
+                            <a href="#">Dashboard</a>
+                            <a href="#">Deposit</a>
+                            <a href="#">Price List</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="wrapper-col-2">
+                            <h4>Site Map</h4>
+                            <a href="#">Home</a>
+                            <a href="#">Produk</a>
+                            <a href="#">Cek Transaksi</a>
+                            <a href="#">Kalkulator</a>
+                            <a href="#">Hubungi</a>
+                            <a href="#">Reviews</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="wrapper-col-2">
+                            <h4>Legal</h4>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms & Condition</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="wrapper-col-2">
+                            <h4>Payment Method</h4>
+                            <img src="./img/payment-method.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <img src="./img/footerbg.png" alt="" class="footer-icon" width="130px">
+        <img src="./img/persegi-panjang.png" alt="" class="footer-icon2" width="60px" height="150px">
+        <img src="./img/persegi-panjang.png" alt="" class="footer-icon3" width="265px" height="160px">
+        <img src="./img/persegi-panjang.png" alt="" class="footer-icon4" width="120px" height="50px">
+    </section>
+    <!-- Footer End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+* {
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    z-index: 1;
+}
+
+.login {
+    min-height: 100vh;
+}
+
+.btn-back {
+    position: relative;
+    top: 40px;
+    right: 70px;
+}
+
+.header h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.header p {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.login-form {
+    position: relative;
+}
+
+.icon-eye {
+    color: #B1B8C1;
+    position: absolute;
+    top: calc(60%);
+    left: 23rem;
+}
+
+.login-form label {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    margin-bottom: 12px;
+}
+
+.login-form input {
+    width: 411px;
+    height: 45px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.login-form :placeholder-shown {
+    font-size: 13px;
+}
+
+.form-forget {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-check-label {
+    margin-right: 10px;
+}
+
+.forget-password {
+    margin-bottom: 10px;
+}
+
+.form-check input {
+    width: 17px;
+    height: 17px;
+}
+
+.form-check-input:checked {
+    background-color: #E54649;
+    border-color: #E54649;
+}
+
+.form-check label {
+    color: #B1B8C1;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.forget-password a {
+    position: relative;
+    color: #E54649;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    left: 140px;
+}
+
+.sigin {
+    color: #fff;
+    width: 411px;
+    height: 45px;
+    background-color: #E54649;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.btn-register {
+    position: relative;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    left: 50px;
+}
+
+.btn-register a {
+    font-size: 13px;
+    color: #D84533;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.bg-image {
+    background-image: url(../img/login-img/login.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-box {
+    position: absolute;
+    z-index: 0;
+    top: 190px;
+    left: 1px;
+    pointer-events: none;
+}
+
+.bg-box2 {
+    position: absolute;
+    z-index: 0;
+    top: 250px;
+    left: 110px;
+    pointer-events: none;
+}
+
+.bg-box3 {
+    position: absolute;
+    z-index: 0;
+    top: 130px;
+    left: 220px;
+    pointer-events: none;
+}
+
+@media (max-width: 992px) {
+
+    .forget-password {
+        position: absolute;
+        left: 170px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .forget-password {
+        position: absolute;
+        left: 170px;
+    }
+
+    .btn-register {
+        position: absolute;
+        left: 90px;
+    }
+}
+
+@media (max-width: 675px) {
+    .btn-back {
+        left: -5px;
+        top: -10px;
+    }
+}
